@@ -30,6 +30,11 @@ We have a [Code of Conduct](./CODE_OF_CONDUCT.md).
 OpenZFS is released under a CDDL license.
 For more details see the NOTICE, LICENSE and COPYRIGHT files; `UCRL-CODE-235197`
 
+OpenZFS does not follow a hard/specific release schedule for point releases.
+Staging branches do exist however for commits planned to be merged into the next point release (e.g. zfs-x.y.z-staging)
+
 # Supported Kernels
   * The `META` file contains the officially recognized supported Linux kernel versions.
+  * Point releases will be tagged as needed in order to support the stable Linux kernel available from kernel.org. 
+  * The oldest supported Linux kernel is 2.6.32 due to its prominence in Enterprise Linux distributions.
   * Supported FreeBSD versions are 12-STABLE and 13-CURRENT.
